@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    /* background-color: rgb(255, 255, 255) */
+    background-image: url("https://i.stack.imgur.com/ngIeG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+header{
+    padding: 15px;
+    background-color: rgb(150, 150, 150);
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+}
+
+
+
+footer{
+    padding: 15px;
+    background-color: rgb(150, 150, 150);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+h1{
+    color: aqua;
+}
+
+
+
+
+
+.h_logo_name{
+    position: relative; 
+    width: 100%;
+    text-align: center;
+}
+.h_logo{
+    width: 100%;
+    border-radius: 10%;
+    height: auto;
+}
+.h_name{
+    font-size: 150%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/* .h_insta{
+    width: 30px;
+} */
+
+
+
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+  
+#navbar li {
+    display: inline;
+    margin-right: 40px;
+    position: relative;
+    cursor: pointer;
+}
+  
+#navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+}
+  
+#navbar  li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: darkblue;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+  
+}
+
+#navbar  li a.active::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: darkblue; 
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+  
+}
+  
+#navbar  li a:hover,
+#navbar  li a.active {
+    color: darkblue;
+    transition: 0.3s ease;
+}
+  
+#navbar  li:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+body{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    padding-top: 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+img{
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    display: inline;
+}
+
+.proj1{
+    text-align: center;
+    width: 340px;
+    border: 2px #646464 solid;
+    border-radius: 35px;
+}
+
+.img1{
+    padding: 20px;
+    background: #646464;
+    width: auto;
+    border-radius: 30px;
+    display: flex;
+}
+
+.proj2{
+    text-align: center;
+    width: 340px;
+    border: 2px #646464 solid;
+    border-radius: 35px;
+}
+
+.img2{
+    padding: 20px;
+    background: #646464;
+    width: auto;
+    border-radius: 30px;
+    display: flex;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: #000000 0.5px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.prod1{
+    text-align: left;
+    margin: 50px;
+}
+
+
+.prod2{
+    text-align: left;
+    margin: 50px;
+}
+
+
+
+
+
+/* 
+
+
+.payment{
+    margin: 100px;
+}
+
+.buy{
+    width: 300px;
+    height: 100px;
+    border-radius: 40px;
+    margin: 100px;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons a i{
+    justify-content: flex;
+    transition: 0.3s ease;
+    font-size: 2em;
+    margin-right: 20px;
+
+}
+
+
+.icons a:hover i{
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+.about{
+    height: auto;
+    width: 80%;
+    background-color: rgba(150, 150, 150, 0.85);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+.show-more {
+    cursor: pointer;
+    color: darkblue;
+    text-decoration: underline;
+}
